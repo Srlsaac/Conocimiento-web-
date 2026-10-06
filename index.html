@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://thumbs.dreamstime.com/b/bot%C3%B3n-rojo-del-icono-hotel-119873290.jpg">
+</head>
+<body>
+
+
+<header class="encabezado">
+    <h1 class="encabezado__titulo" id="inicio">Hotel Vista Verde</h1>
+    <p class="encabezado__frase">Descansa en el corazón de la montaña.</p>
+
+
+    <nav>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__enlace" href="#inicio">Inicio</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="#habitaciones">Habitaciones</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="#reserva">Reservas</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="#contacto">Contacto</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="#hotel">Hotel</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="#testimonios">Testimonios</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h3 class="seccion__titulo" id="hotel">Nuestro hotel</h3>
+
+
+    <div class="medios">
+        <img class="medios__foto" src="img/hote.jpg" alt="Foto del hotel">
+        <iframe class="medios__video"
+            src="https://www.youtube.com/embed/cdKx1Zv3YKs"
+            title="Video del hotel"
+            allowfullscreen>
+        </iframe>
+    </div>
+</header>
+
+<main>
+
+
+    <section class="seccion">
+        <h2 class="seccion__titulo">Características</h2>
+
+
+        <div class="fila">
+            <div class="tarjeta">
+                <span class="tarjeta__icono">🛏️</span>
+                <h3 class="tarjeta__titulo">Habitaciones cómodas</h3>
+                <p class="tarjeta__texto">Camas amplias y espacios pensados para descansar.</p>
+            </div>
+
+            <div class="tarjeta">
+                <span class="tarjeta__icono">🍳</span>
+                <h3 class="tarjeta__titulo">Desayuno incluido</h3>
+                <p class="tarjeta__texto">Cada mañana, desayuno fresco sin costo adicional.</p>
+            </div>
+
+            <div class="tarjeta">
+                <span class="tarjeta__icono">📶</span>
+                <h3 class="tarjeta__titulo">WiFi gratis</h3>
+                <p class="tarjeta__texto">Conexión rápida en todas las habitaciones.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seccion seccion--habitaciones">
+        <h2 class="seccion__titulo" id="habitaciones">Habitaciones</h2>
+
+        <div class="fila">
+            <div class="tarjeta">
+                <h3 class="tarjeta__titulo">Sencilla</h3>
+                <img class="tarjeta__foto" src="https://us.123rf.com/450wm/sipandra/sipandra1604/sipandra160400027/56292932-bedroom-with-iron-bed-old-blankets-and-dirty-interior-in-an-abandoned-house-after-war-and-natural.jpg" alt="Foto de habitación sencilla">
+                <h4 class="tarjeta__precio">1 persona · $120.000 / noche</h4>
+                <ul class="tarjeta__lista">
+                    <li class="tarjeta__item">Cama sencilla</li>
+                    <li class="tarjeta__item">Baño privado</li>
+                    <li class="tarjeta__item">WiFi gratis</li>
+                    <li class="tarjeta__item">Desayuno incluido</li>
+                </ul>
+            </div>
+
+
+            <div class="tarjeta tarjeta--destacada">
+                <h3 class="tarjeta__titulo">Doble</h3>
+                <img class="tarjeta__foto" src="https://previews.123rf.com/images/rilueda/rilueda1607/rilueda160700469/60566170-modern-double-bed-hotel-bedroom-interior.jpg" alt="Foto de habitación doble">
+                <h4 class="tarjeta__precio">2 personas · $180.000 / noche</h4>
+                <ul class="tarjeta__lista">
+                    <li class="tarjeta__item">Camas dobles</li>
+                    <li class="tarjeta__item">Baño privado</li>
+                    <li class="tarjeta__item">WiFi gratis</li>
+                    <li class="tarjeta__item">Desayuno incluido</li>
+                    <li class="tarjeta__item">TV por cable</li>
+                    <li class="tarjeta__item">Aire acondicionado</li>
+                </ul>
+            </div>
+
+            <div class="tarjeta">
+                <h3 class="tarjeta__titulo">Suite</h3>
+                <img class="tarjeta__foto" src="https://media.admagazine.com/photos/65b927c2857395e101a7a54b/master/w_1600%2Cc_limit/atr.royalmansion-majlis-mr.jpg" alt="Foto de la suite">
+                <h4 class="tarjeta__precio">4 personas · $320.000 / noche</h4>
+                <ul class="tarjeta__lista">
+                    <li class="tarjeta__item">Camas king size</li>
+                    <li class="tarjeta__item">Baño privado con jacuzzi</li>
+                    <li class="tarjeta__item">WiFi gratis</li>
+                    <li class="tarjeta__item">Desayuno incluido</li>
+                    <li class="tarjeta__item">TV por cable</li>
+                    <li class="tarjeta__item">Aire acondicionado</li>
+                    <li class="tarjeta__item">Vista panorámica</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion">
+        <h2 class="seccion__titulo" id="reserva">Reserva</h2>
+
+
+        <form class="formulario" action="">
+            <label class="formulario__etiqueta" for="nombre">Nombre</label><br>
+            <input class="formulario__campo" type="text" id="nombre" name="nombre"><br>
+
+            <label class="formulario__etiqueta" for="correo">Correo electrónico</label><br>
+            <input class="formulario__campo" type="text" id="correo" name="correo"><br>
+
+            <label class="formulario__etiqueta" for="llegada">Fecha de llegada</label><br>
+            <input class="formulario__campo" type="date" id="llegada" name="llegada"><br>
+
+            <label class="formulario__etiqueta" for="salida">Fecha de salida</label><br>
+            <input class="formulario__campo" type="date" id="salida" name="salida"><br>
+
+            <label class="formulario__etiqueta" for="tipo">Tipo de habitación</label><br>
+            <select class="formulario__campo" id="tipo" name="tipo">
+                <option>Sencilla</option>
+                <option>Doble</option>
+                <option>Suite</option>
+            </select><br><br>
+
+            <button class="formulario__boton" type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <section class="seccion">
+        <h2 class="seccion__titulo" id="testimonios">Lo que dicen nuestros huéspedes</h2>
+
+        <div class="fila">
+
+            <div class="tarjeta tarjeta--testimonio">
+                <img class="tarjeta__avatar" src="img/avatarmujer.jpg" alt="Foto de María">
+                <h3 class="tarjeta__titulo">María Gómez</h3>
+                <h4 class="tarjeta__cargo">Turista</h4>
+                <p class="tarjeta__texto">La mejor estadía que hemos tenido, volveremos pronto.</p>
+            </div>
+
+            <div class="tarjeta tarjeta--testimonio">
+                <img class="tarjeta__avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTYYHy8cOA4jetx8Op4Cq7PhNctgYZCca6dM33Yg-rg&s=10" alt="Foto de Carlos">
+                <h3 class="tarjeta__titulo">Carlos Ruiz</h3>
+                <h4 class="tarjeta__cargo">Viajero de negocios</h4>
+                <p class="tarjeta__texto">Habitaciones limpias, buen WiFi y excelente atención.</p>
+            </div>
+
+            <div class="tarjeta tarjeta--testimonio">
+                <img class="tarjeta__avatar" src="https://img.magnific.com/vector-premium/dia-internacional-educacion-ilustracion-aprendizaje-estudiantil_840648-1381.jpg?semt=ais_hybrid&w=740&q=80" alt="Foto de Laura">
+                <h3 class="tarjeta__titulo">Laura Pérez</h3>
+                <h4 class="tarjeta__cargo">Escritora</h4>
+                <p class="tarjeta__texto">El lugar perfecto para desconectarse y descansar.</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="pie" id="contacto">
+
+
+    <div class="pie__contenedor">
+
+
+        <div class="pie__columna">
+            <h3 class="pie__titulo">Contacto</h3>
+            <p class="pie__texto">Km 5 vía a la montaña</p>
+            <p class="pie__texto"><a class="pie__enlace" href="tel:+573000000000">300 000 0000</a></p>
+            <p class="pie__texto"><a class="pie__enlace" href="mailto:contacto@hotelvistaverde.com">contacto@hotelvistaverde.com</a></p>
+        </div>
+
+
+        <div class="pie__columna">
+            <h3 class="pie__titulo">Navegación</h3>
+            <nav>
+                <ul class="pie__lista">
+                    <li class="pie__item"><a class="pie__enlace" href="#inicio">Inicio</a></li>
+                    <li class="pie__item"><a class="pie__enlace" href="#habitaciones">Habitaciones</a></li>
+                    <li class="pie__item"><a class="pie__enlace" href="#reserva">Reservas</a></li>
+                    <li class="pie__item"><a class="pie__enlace" href="#testimonios">Testimonios</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="pie__columna">
+            <h3 class="pie__titulo">Síguenos</h3>
+            <ul class="pie__lista">
+                <li class="pie__item"><a class="pie__enlace" href="#">Facebook</a></li>
+                <li class="pie__item"><a class="pie__enlace" href="#">Instagram</a></li>
+                <li class="pie__item"><a class="pie__enlace" href="#">WhatsApp</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <p class="pie__copyright">© 2026 Hotel Vista Verde. Todos los derechos reservados.</p>
+
+</footer>
+
+</body>
+</html>
